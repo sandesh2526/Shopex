@@ -1,2 +1,2 @@
-# ShopX
+# Shopex
 A project to go with...
