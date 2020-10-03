@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"/>
+    <link rel="stylesheet" href="D:\shopex\css\bootstrap.css"/>
+    <link rel="stylesheet" href="D:\shopex\css\mdb.css"/>
+    <link rel="stylesheet" href="D:\shopex\stylo.css"/>
+</head>
+<body>
+    
+<!--Navbar-->
+        
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <a href="#" class="navbar-brand">Shopex</a>
+           
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#go" aria-controls="navbar-nav" aria-expanded="false">
+                  <span class="navbar-toggler-icon fa-2x"></span>
+            </button>
+
+          <div class="collapse navbar-collapse" id="go">
+             <ul class="navbar-nav">
+                 <li class="nav-item">
+                     <a href="#" class="nav-link">Men</a>
+                 </li>
+
+                 <li class="nav-item">
+                    <a href="#" class="nav-link">Women</a>
+                </li>
+
+                <li class="nav-item">
+                    <a href="#" class="nav-link">Kids</a>
+                </li>
+             </ul>
+            </div>
+              <form class="form-group search">
+                  <input type="text" class="form-control" placeholder="Search for products and more"/>
+              </form>
+
+              
+              <ul class="navbar-nav">
+                  <li class="nav-item">
+                 <a href="#" class="nav-link"><i class="fas fa-user-circle fa-2x mr-2"></i></a>
+                  </li>
+
+                  <li class="nav-item">
+                    <a href="#" class="nav-link"><i class="fas fa-shopping-bag fa-2x"></i></a>
+                  </li>
+              </ul>
+            
+        </nav>
+   
+ <!--Carousel-->       
+ <section class="slide">
+      <div id="set" class="carousel slide" data-ride="carousel">
+          <div class="carousel-inner">
+              <div class="carousel-item active">
+                 <img src="D:\shopex\images\men4.jpg"  alt="" height="450px"/>
+
+                 <div class="carousel-caption text-left animated bounceInLeft delay-1s">
+                 <h1>Best offers on Mens Clothes</h1>
+                 <a href="#"><button class="btn btn-md btn-1">Explore</button></a> 
+                </div>
+              </div>
+
+              <div class="carousel-item">
+                  <img src="D:\shopex\images\women5.jpg" alt="" height="450px"/>
+
+                  <div class="carousel-caption text-right animated bounceInRight delay-1s">
+                      <h1>Top Women Clothing Brands</h1>
+                      <a href="#"><button class="btn btn-md btn-1">Explore</button></a> 
+                  </div>
+              </div>
+
+              <div class="carousel-item">
+                  <img src="D:\shopex\images\kids4.jpg" alt=""  height="450px">
+
+                  <div class="carousel-caption text-right animated bounceInRight delay-1s">
+                      <h1 class="h">Awesome Deals on Kids Wear</h1>
+                     <a href="#"><button class="btn btn-md btn-1">Explore</button></a> 
+                  </div>
+              </div>
+          </div>
+
+          <a class="carousel-control-prev" href="#set" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">previous</span>
+          </a>
+
+          <a class="carousel-control-next" href="#set" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+          </a>
+      </div>
+ </section>
+
+<!--Top Deals-->
+<section class="Deal">
+   <container class="Top">
+        <div class="Top-Deal">Top Deals</div>
+          <div class="row">
+              <div class="col-md-3">
+                    <div class="card view overlay zoom hoverable" style="width:23rem;">
+                        <img src="D:\shopex\images\men1.jpg" height="270rem" alt="" class="card-img-top">
+                        <div class="card-body">
+                            <div class="card-title">UpTo 50% Off</div>
+                            <p class="text">Nike Men Jackets</p>
+                            <a href="#"><button class="btn btn-md btn-2">Get Deal</button></a>
+                        </div>
+                    </div>  
+              </div>
+                
+              <div class="col-md-3">
+                <div class="card view overlay zoom hoverable" style="width:23rem;">
+                    <img src="D:\shopex\images\women2.jpg" height="270rem" alt="" class="card-img-top">
+                    <div class="card-body">
+                        <div class="card-title">Starting at Rs.900</div>
+                        <p class="text">Women Western Wear</p>
+                        <a href="#"><button class="btn btn-md btn-2">Get Deal</button></a>
+                    </div>
+                </div>  
+          </div>
+             
+          <div class="col-md-3">
+            <div class="card view overlay zoom hoverable" style="width:23rem;">
+                <img src="D:\shopex\images\kids2.jpg" height="270rem" alt="" class="card-img-top">
+                <div class="card-body">
+                    <div class="card-title">Min 40% Off</div>
+                    <p class="text">Kids Party Wear</p>
+                    <a href="#"><button class="btn btn-md btn-2">Get Deal</button></a>
+                </div>
+            </div>  
+      </div>
+
+      <div class="col-md-3">
+        <div class="card view overlay zoom hoverable" style="width:23rem;">
+            <img src="D:\shopex\images\men3.jpg" height="270rem" alt="" class="card-img-top">
+            <div class="card-body">
+                <div class="card-title">Starting at Rs.600</div>
+                <p class="text">All Men Shirts</p>
+                <a href="#"><button class="btn btn-md btn-2">Get Deal</button></a>
+            </div>
+        </div>  
+  </div>
+
+    </div>
+   </container>
+</section>
+
+<!--Trending in Mens Wear-->
+<section class="Trending">
+ <container class="Trends">
+     <div class="Wear">Trending in Mens Wear</div>
+     <div class="row row-1">
+        <div class="col-md-4">
+             <div class="card view overlay zoom hoverable" style="width:23rem;">
+                 <img src="D:\shopex\images\men6.jpg" height="250rem" alt="" class="card-img-top">
+                 <div class="card-body">
+                     <div class="card-title description">Men sky blue chex T-shirt </div>
+                     <p class="text">Rs.600</p>
+                     <a href="#"><button class="btn btn-2">View Deal</button></a>
+                 </div>
+            </div>
+         </div>
+         
+        <div class="col-md-4">
+            <div class="card view overlay zoom hoverable" style="width:23rem;">
+                <img src="D:\shopex\images\men8.jpeg" height="250rem" alt="" class="card-img-top">
+                <div class="card-body">
+                    <div class="card-title description">Yellow and black colour Shirt</div>
+                    <p class="text">Rs.500</p>
+                    <a href="#"><button class="btn btn-2">View Deal</button></a>
+                </div>
+           </div>
+        </div>
+        
+        <div class="col-md-4">
+            <div class="card view overlay zoom hoverable" style="width:23rem;">
+                <img src="D:\shopex\images\men10.jpg" height="250rem" alt="" class="card-img-top">
+                <div class="card-body">
+                    <div class="card-title description">Party wear Three piece suit</div>
+                    <p class="text">Rs.1500</p>
+                    <a href="#"><button class="btn btn-2">View Deal</button></a>
+                </div>
+           </div>
+        </div>
+
+     </div>
+
+     <div class="row row-2">
+        <div class="col-md-4">
+            <div class="card view overlay zoom hoverable" style="width:23rem;">
+                <img src="D:\shopex\images\men11.jpeg" height="250rem" alt="" class="card-img-top">
+                <div class="card-body">
+                    <div class="card-title description">Traditional Blue Kurta</div>
+                    <p class="text">Rs.1200</p>
+                    <a href="#"><button class="btn btn-2">View Deal</button></a>
+                </div>
+           </div>
+        </div>
+        
+        <div class="col-md-4">
+           <div class="card view overlay zoom hoverable" style="width:23rem;">
+               <img src="D:\shopex\images\men7.jpeg" height="250rem" alt="" class="card-img-top">
+               <div class="card-body">
+                   <div class="card-title description">Round Neck green shirt</div>
+                   <p class="text">Rs.700</p>
+                   <a href="#"><button class="btn btn-2">View Deal</button></a>
+               </div>
+          </div>
+       </div>
+       
+       <div class="col-md-4">
+           <div class="card view overlay zoom hoverable" style="width:23rem;">
+               <img src="D:\shopex\images\men12.jpg" height="250rem" alt="" class="card-img-top">
+               <div class="card-body">
+                   <div class="card-title description">Men slim-fit blue jeans</div>
+                   <p class="text">Rs.1000</p>
+                   <a href="#"><button class="btn btn-2">View Deal</button></a>
+               </div>
+          </div>
+       </div>
+
+    </div>
+ </container>
+</section>
+
+<!--Sale-->
+<section class="sale">
+    <container class="sale-on">
+        <div class="Wear">Upcoming Mega Sales</div>
+        <div class="row">
+            <div class="col-md-6">
+                <img src="D:\shopex\images\sale.jpg" height="400rem">
+            </div>
+
+            <div class="col-md-6">
+                <img src="D:\shopex\images\sell.jpg" height="400rem">
+            </div>
+
+        </div>
+    </container>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="D:\shopex\js\jquery.min.js"></script>
+<script src="D:\shopex\js\popper.js"></script>
+<script src="D:\shopex\js\bootstrap.js"></script>
+<script src="D:\shopex\js\mdb.js"></script>
+<script>
+    $('.carousel').carousel({
+        interval:3000,
+        pause:'hover'
+    });
+</script>
+</body>
+</html>
