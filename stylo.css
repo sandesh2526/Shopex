@@ -21,6 +21,7 @@ html{
 
 section{
      padding:3rem 0;
+     overflow:hidden;
 }
 
 img{
@@ -33,6 +34,7 @@ container{
     max-width:122.5rem;
     margin:0 auto;
     padding:0 2.4rem;
+    overflow:hidden;
 }
 
 nav{
@@ -76,6 +78,22 @@ nav{
         width:54rem;
         height:3.7rem;
         font-size:1.3rem;
+        z-index:2;
+        position:relative;
+
+}
+
+.fas.fa-search{
+     z-index:20;
+     position:absolute;
+     margin-top:-2.7rem;
+     margin-left:50rem;
+     font-size:1.8rem;
+     color:#000;
+}
+
+.bottom{
+      border-bottom:.2rem solid #fff;
 }
 
 .carousel-caption{
@@ -98,6 +116,15 @@ nav{
      color:#fff;
      letter-spacing:.1rem;
      margin-right:-.1rem;
+}
+
+.carousel-caption .j{
+     font-size:4.3rem;
+     font-weight:100rem;
+     color:#fff;
+     letter-spacing:.1rem;
+     margin-right:-.1rem;
+     margin-top:-8rem;
 }
 
 .btn.btn-1{
@@ -126,16 +153,19 @@ nav{
        text-align:center;
        letter-spacing:.2rem;
        margin-right:-.2rem;
-       border-bottom:.2rem solid #1db0dd; 
-       display:block;    
 }
 
-.row{
+.radius{
+      border-radius:47%;
+}
+
+.row-3{
      margin-top:4rem;
      margin-left:4rem;
 }
 
 .card{
+      width:23rem;
       background-color:var(--main-color);
       text-align:center;
       box-shadow:3px 3px 14px;
@@ -170,9 +200,21 @@ nav{
      text-align:center;
      letter-spacing:.2rem;
      margin-right:-.2rem;
-     border-bottom:.2rem solid #1db0dd;
      margin-bottom:3rem; 
 }
+
+.card-1{
+       margin-left:10rem;
+}
+
+.card-2{
+     margin-left:3rem;
+}
+
+.card-3{
+     margin-left:-5rem;
+}
+
 .row-1{
       margin-top:4rem;
 }
@@ -182,14 +224,410 @@ nav{
 }
 
 .row-2{
-     margin-top:3.5rem;
+     margin-top:4rem;
 }
 
 .description{
        font-size:1.6rem;
 }
 
-.btn:hover{
+.btn.btn-2:hover{
        color:#fff;
        background-color:#000;
 }
+
+.offer{
+       width:100%;
+       height:80vh;
+       background:url("D:/shopex/images/men14.jpg") center no-repeat;
+       background-size:90rem 61rem;
+       margin-top:4rem;
+       background-color:#1db0dd;
+}
+
+.Offer{
+     width:100%;
+     height:80vh;
+     background:url("D:/shopex/images/men15.jpg") center no-repeat;
+     background-size:80rem 52rem;
+     margin-top:4rem;
+     background-color:#1db0dd;
+}
+
+.Offer-women{
+     width:100%;
+     height:80vh;
+     background:url("D:/shopex/images/women15.jpg") center no-repeat;
+     background-size:70rem 52rem;
+     margin-top:4rem;
+     background-color:#1db0dd;
+}
+
+
+.Arrival{
+     width:100%;
+     height:80vh;
+     background:url("D:/shopex/images/men28.jpg") center no-repeat;
+     background-size:127rem 52rem;
+     margin-top:4rem;
+     background-color:#1db0dd;
+}
+
+.Arrival-women{
+     width:100%;
+     height:80vh;
+     background:url("D:/shopex/images/women3.jpg") center no-repeat;
+     background-size:125rem 50rem;
+     margin-top:4rem;
+}
+
+
+.Wear-on{
+     font-size:5rem;
+     font-family:var(--secondary-font);
+     color:#000;
+     margin-right:9rem;
+}
+
+.women{
+     color:#fff;
+}
+
+.offer .btn{
+       margin-top:9rem;
+       font-size:2rem;
+       font-family:var(--secondary-font);
+}
+
+footer{
+     background-color:var(--main-color);
+     text-align:center;
+     margin-top:4rem;
+}
+
+.footer-name{
+         font-size:3.5rem;
+         font-family:var(--secondary-font);
+         color:#fff;
+         letter-spacing:.2rem;
+         margin-right:-.2rem;
+         margin-top:-3rem;
+}
+
+.footer-label{
+       font-size:1.7rem;
+       font-family:var(--main-font);
+       color:#fff;
+}
+
+.social-icon{
+          color:#fff;
+          font-size:4rem;
+}
+
+.footer-la{
+      font-size:1.3rem;
+      color:#fff;
+      margin-top:1rem;
+}
+
+.arrow{
+      width:6rem;
+      height:6rem;
+      left:47%;
+      background-color:var(--main-color);
+      position:relative;
+      display:block;
+      top:-4rem;
+      border-radius:50%;
+}
+
+.fas.fa-chevron-up{
+      margin-top:1rem;
+      color:#fff;
+      font-size:2.1rem;
+
+}
+
+/*Profile-page*/
+
+.profile{
+      text-align:center;
+      background-color:var(--main-color);
+      height:100vh;
+}
+
+.welcome-sign{
+      color:var(--main-color);
+      font-size:4rem;
+      font-family:var(--secondary-font);
+      margin-top:1.5rem;
+}
+
+.sign-in{
+       padding:2rem 3rem;
+       border:.3rem solid #fff;
+       display:inline-block;
+       margin-top:8rem;
+       background-color:#fff;
+}
+
+.sign-in input{
+       display:block;
+       margin-top:2.2rem;
+       width:36rem;
+       height:3rem;
+}
+
+.sign-btn ,.log-btn{
+      display:inline;
+}
+
+.btn.btn-5,.btn.btn-7{
+     color:#fff;
+     background-color:#000;
+     padding:.7rem 2rem;
+     font-size:1.6rem;
+}
+
+.btn.btn-7:focus{
+      color:#fff;
+      background-color:var(--main-color);
+}
+
+.btn.btn-5:focus{
+     color:#fff;
+     background-color:var(--main-color);
+}
+
+.btn.btn-6{
+     color:#fff;
+     background-color:var(--main-color);
+     padding:.7rem 2rem;
+     font-size:1.4rem;
+     margin-top:2rem;
+}
+
+.sign-on,.log-in,.btn-6{
+     display:none;
+}
+
+.active{
+     display:block;
+}
+
+.inactive{
+     display:none;
+}
+
+
+
+/*Media Queries*/
+@media screen and (max-width:899px){
+
+     .navbar-brand{
+          font-size:3.5rem;
+     }
+     
+     .navbar-toggler-icon{
+          font-size:2rem;
+     }
+      
+     .search input{
+           width:26rem;
+     }
+     
+     .fas.fa-search{
+            margin-left:23rem;
+     }
+
+     .fas.fa-user-circle , .fas.fa-shopping-bag{
+           font-size:3.5rem;
+     }
+
+     .carousel-item img{
+           height:300px;
+     }
+    
+     .carousel-caption h1{
+          font-size:2.7rem;
+     }
+
+     .carousel-caption .h{
+          font-size:2.7rem;
+          margin-top:-26rem;
+     }
+
+     .carousel-caption .j{
+          font-size:3rem;
+          color:#02e8f8;
+     }
+
+     .carousel-control-prev-icon , .carousel-control-next-icon{
+              padding:1.3rem 1.3rem;
+     }
+    
+     .Top-Deal{
+          font-size:3rem;
+     }
+     
+     .card img{
+          height:15rem;
+          
+     }
+
+      .card{
+          width:13rem;
+          height:28.5rem;
+     }
+
+     .card-title{
+          font-size:1.5rem;
+          margin-top:-1rem;
+     }
+
+     .card-4{
+           margin-left:-2rem;
+     }
+     
+     .text{
+          font-size:1.3rem;
+          margin-top:-1rem;
+     }
+     
+     .btn.btn-2{
+          font-size:1.2rem;
+     }
+
+     .btn.btn-sm.btn-2{
+          font-size:1rem;
+     }
+
+     .btn.btn-4{
+          font-size:.2rem;
+          padding:.4rem .6rem;
+          margin-top:-.2rem;
+     }
+
+     .row-3{
+           display:grid;
+           grid-template-columns:repeat(2,1fr);
+           grid-gap:1rem;
+           margin-left:2rem;
+     }
+
+    .Wear{
+         font-size:3rem;
+    }
+
+   .row-1 ,.row-2{
+         display:grid;
+         grid-template-columns:repeat(3,1fr);
+   }
+
+   .row-4{
+         display:grid;
+         grid-template-columns:repeat(2,2fr);
+   }
+    
+  .card-1{
+       margin-left:-7rem;
+       width:10rem;
+       height:28.5rem;
+  }
+
+  .card-2{
+     margin-left:-5rem;
+     width:10rem;
+     height:28.5rem;
+}
+
+.card-3{
+     margin-left:-4rem;
+     width:10rem;
+     height:28.5rem;
+}
+
+  .description{
+       font-size:1.3rem;
+  }
+
+  .sale img{
+        height:27rem;
+  }  
+
+  .offer{
+     background-size:30rem 40rem;
+     height:70vh;
+}
+
+.Offer ,.Offer-women{
+     background-size:30rem 40rem;
+     height:70vh;
+}
+
+.Arrival{
+     background-size:40rem 40rem;
+     height:70vh;
+}
+
+.Arrival-women{
+     background-size:40rem 37rem;
+     height:70vh;
+}
+
+.Wear-on.women{
+     color:#fff;
+}
+
+.Wear-on{
+     font-size:3.7rem;
+     color:#000;
+}
+
+.footer-name{
+      font-size:2.7rem;
+}
+
+.social-icon{
+     font-size:3rem;
+}
+
+.footer-label{
+      font-size:1.3rem;
+}
+
+.footer-la{
+      font-size:.9rem;
+}
+
+.arrow{
+     left:42%;
+    
+}
+
+
+.welcome-sign{
+     font-size:2.5rem;
+}
+
+.sign-in{
+      margin-top:5rem;
+}
+
+.sign-in input{
+      width:25rem;
+      height:3rem;
+}
+
+.btn.btn-5,.btn.btn-7{
+     font-size:1.2rem;
+}
+
+.btn.btn-6{  
+     font-size:1.1rem;
+}
+
+
+
+} 
