@@ -672,7 +672,12 @@ footer{
 .btn.btn-6{  
      font-size:1.1rem;
 }
-
-
+/*Changing below this*/
+.row-4
+{
+     display: flex;
+     flex-direction: column;
+     text-align: center;
+}
 
 } 
