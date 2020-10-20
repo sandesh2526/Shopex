@@ -222,6 +222,8 @@ nav{
       color:#fff;
       letter-spacing:.2rem;
       margin-right:-.2rem;
+      /*changing following Line*/
+      display:"" ;
 }
 
 .text{
