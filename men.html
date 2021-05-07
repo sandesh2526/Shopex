@@ -37,10 +37,10 @@
              </ul>
             </div>
 
-              <form class="form-group search">
-                  <input type="text" class="form-control" placeholder="Search for products and more"/>
-                <a href="#"><i class="fas fa-search"></i></a>
-                </form>
+            <form onsubmit="myFun1()" class="form-group search" action="trial_search.html">
+                <input type="text" id="input" class="form-control" placeholder="Search for products and more"/>
+                <a href="trial_search.html"><i onclick = "myFun1()" class="fas fa-search"></i></a>
+              </form>
 
               
               <ul class="navbar-nav">
@@ -109,7 +109,7 @@
                         <div class="card-title">Festive Wear</div>
                         <a href="#traditional"><button class="btn btn-sm btn-4 btn-2 mt-3">Explore</button></a>
                     </div>
-                </div>  
+                </div>
           </div>
              
           <div class="col-md-4">
@@ -140,7 +140,7 @@
      <div class="row row-1">
         <div class="col-md-4">
              <div class="card view overlay zoom hoverable card-1">
-                 <img src=" images\men6.jpg" height="250rem" alt="" class="card-img-top">
+                 <img src="images\men6.jpg" height="250rem" alt="" class="card-img-top">
                  <div class="card-body">
                      <div class="card-title description">Men sky blue chex T-shirt </div>
                      <p class="text">Rs.600</p>
@@ -151,7 +151,7 @@
          
         <div class="col-md-4">
             <div class="card view overlay zoom hoverable card-2">
-                <img src=" images\men8.jpeg" height="250rem" alt="" class="card-img-top">
+                <img src="images\men8.jpeg" height="250rem" alt="" class="card-img-top">
                 <div class="card-body">
                     <div class="card-title description">Yellow & Black colour Shirt</div>
                     <p class="text">Rs.500</p>
@@ -403,6 +403,7 @@
 <script src="js\popper.js"></script>
 <script src="js\bootstrap.js"></script>
 <script src="js\mdb.js"></script>
+<script src="get_products.js"></script>
 <script>
     $('.carousel').carousel({
         interval:3000,

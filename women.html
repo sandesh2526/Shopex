@@ -36,10 +36,10 @@
              </ul>
             </div>
 
-              <form class="form-group search">
-                  <input type="text" class="form-control" placeholder="Search for products and more"/>
-                <a href="#"><i class="fas fa-search"></i></a>
-                </form>
+            <form onsubmit="myFun1()" class="form-group search" action="trial_search.html">
+                <input type="text" id="input" class="form-control" placeholder="Search for products and more"/>
+                <a href="trial_search.html"><i onclick = "myFun1()" class="fas fa-search"></i></a>
+              </form>
 
               
               <ul class="navbar-nav">
@@ -402,6 +402,7 @@
 <script src=" js\popper.js"></script>
 <script src=" js\bootstrap.js"></script>
 <script src=" js\mdb.js"></script>
+<script src="search.js"></script>
 <script>
     $('.carousel').carousel({
         interval:3000,

@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="css\mdb.css"/>
     <link rel="stylesheet" href="stylo.css"/>
 </head>
-<body>
+<body onload="myFun()">
     
 <!--Navbar-->
         
@@ -36,8 +36,9 @@
                 </li>
              </ul>
             </div>
-              <form class="form-group search">
-                  <input type="text" id="input" onkeyup="myFun()" class="form-control" placeholder="Search for products and more"/>
+              <form onsubmit="myFun1()" action="trial_search.html" class="form-group search">
+                  <input type="text" id="input" class="form-control" placeholder="Search for products and more"/>
+                  <a href="trial_search.html"><i onclick="myFun1()" class="fas fa-search"></i></a>
               </form>
 
               
@@ -52,82 +53,80 @@
               </ul>
             
         </nav>
- <section class="Trending">
+ <section class="">
     <container class="Trends">
         <div class="row row-1">
-           <div class="col-md-4">
-                <div class="card view overlay zoom hoverable" style="width:23rem;">
-                    <img src="images\men6.jpg" height="250rem" alt="" class="card-img-top">
+            <div class="col-md-4" >
+                <div class="card view overlay zoom hoverable" id="invi" style="width:23rem;">
+                    <img src="" id="ima" height="250rem" alt="" class="card-img-top">
                     <div class="card-body">
-                        <div class="card-title description">Men sky blue chex T-shirt </div>
-                        <p class="text">Rs.600</p>
-                        <a href="/shopex/products/product_m_6.html"><button class="btn btn-2">View Deal</button></a>
+                        <div class="card-title description" id="name"></div>
+                        <p class="text" id="value"></p>
+                        <a id="ads" href=""><button class="btn btn-2">View Deal</button></a>
                     </div>
                </div>
             </div>
-            
-           <div class="col-md-4">
-               <div class="card view overlay zoom hoverable" style="width:23rem;">
-                   <img src="images\men8.jpeg" height="250rem" alt="" class="card-img-top">
-                   <div class="card-body">
-                       <div class="card-title description">Yellow and black colour Shirt</div>
-                       <p class="text">Rs.500</p>
-                       <a href="/shopex/products/product_m_8.html"><button class="btn btn-2">View Deal</button></a>
-                   </div>
-              </div>
-           </div>
-           
-           <div class="col-md-4">
-               <div class="card view overlay zoom hoverable" style="width:23rem;">
-                   <img src="images\men10.jpg" height="250rem" alt="" class="card-img-top">
-                   <div class="card-body">
-                       <div class="card-title description">Mens wear Three piece suit</div>
-                       <p class="text">Rs.1500</p>
-                       <a href="/shopex/products/product_m_10.html"><button class="btn btn-2">View Deal</button></a>
-                   </div>
-              </div>
-           </div>
-   
+            <div class="col-md-4" >
+                <div class="card view overlay zoom hoverable" id="invi" style="width:23rem;">
+                    <img src="" id="ima" height="250rem" alt="" class="card-img-top">
+                    <div class="card-body">
+                        <div class="card-title description" id="name"></div>
+                        <p class="text" id="value"></p>
+                        <a id="ads" href=""><button class="btn btn-2">View Deal</button></a>
+                    </div>
+               </div>
+            </div>            
+            <div class="col-md-4" >
+                <div class="card view overlay zoom hoverable" id="invi" style="width:23rem;">
+                    <img src="" id="ima" height="250rem" alt="" class="card-img-top">
+                    <div class="card-body">
+                        <div class="card-title description" id="name"></div>
+                        <p class="text" id="value"></p>
+                        <a id="ads" href=""><button class="btn btn-2">View Deal</button></a>
+                    </div>
+               </div>
+            </div>            
+        </div>    
+        <div class="row row-1">
+            <div class="col-md-4" >
+                <div class="card view overlay zoom hoverable" id="invi" style="width:23rem;">
+                    <img src="" id="ima" height="250rem" alt="" class="card-img-top">
+                    <div class="card-body">
+                        <div class="card-title description" id="name"></div>
+                        <p class="text" id="value"></p>
+                        <a id="ads" href=""><button class="btn btn-2">View Deal</button></a>
+                    </div>
+               </div>
+            </div>            
+            <div class="col-md-4" >
+                <div class="card view overlay zoom hoverable" id="invi" style="width:23rem;">
+                    <img src="" id="ima" height="250rem" alt="" class="card-img-top">
+                    <div class="card-body">
+                        <div class="card-title description" id="name"></div>
+                        <p class="text" id="value"></p>
+                        <a id="ads" href=""><button class="btn btn-2">View Deal</button></a>
+                    </div>
+               </div>
+            </div>            
+            <div class="col-md-4" >
+                <div class="card view overlay zoom hoverable" id="invi" style="width:23rem;">
+                    <img src="" id="ima" height="250rem" alt="" class="card-img-top">
+                    <div class="card-body">
+                        <div class="card-title description" id="name"></div>
+                        <p class="text" id="value"></p>
+                        <a id="ads" href=""><button class="btn btn-2">View Deal</button></a>
+                    </div>
+               </div>
+            </div>
         </div>
-   
-        <div class="row row-2">
-           <div class="col-md-4">
-               <div class="card view overlay zoom hoverable" style="width:23rem;">
-                   <img src="images\men11.jpeg" height="250rem" alt="" class="card-img-top">
-                   <div class="card-body">
-                       <div class="card-title description">Traditional Blue Kurta</div>
-                       <p class="text">Rs.1200</p>
-                       <a href="/shopex/products/product_m_11.html"><button class="btn btn-2">View Deal</button></a>
-                   </div>
-              </div>
-           </div>
-           
-           <div class="col-md-4">
-              <div class="card view overlay zoom hoverable" style="width:23rem;">
-                  <img src="images\men7.jpeg" height="250rem" alt="" class="card-img-top">
-                  <div class="card-body">
-                      <div class="card-title description">Round Neck green shirt</div>
-                      <p class="text">Rs.700</p>
-                      <a href="/shopex/products/product_m_7.html"><button class="btn btn-2">View Deal</button></a>
-                  </div>
-             </div>
-          </div>
-          
-          <div class="col-md-4">
-              <div class="card view overlay zoom hoverable" style="width:23rem;">
-                  <img src="images\men12.jpg" height="250rem" alt="" class="card-img-top">
-                  <div class="card-body">
-                      <div class="card-title description">Men slim-fit blue jeans</div>
-                      <p class="text">Rs.1000</p>
-                      <a href="/shopex/products/product_m_12.html"><button class="btn btn-2">View Deal</button></a>
-                  </div>
-             </div>
-          </div>
-   
-       </div>
-    </container>
-   </section>
-   <!--Changing Following Line-->
+   </container>
+</section>
+<div class="home text-center mt-3">
+    <a href="shop.html"><button class="btn btn-1" style="display: none;">Back to Home Page</button></a> 
+</div>  
+<div class="home text-center mt-3">
+    <a href="shop.html"><button class="btn btn-1">Back to Home Page</button></a> 
+</div>  
 <script src="search.js"></script>
 <script src="js\jquery.min.js"></script>
 <script src="js\popper.js"></script>

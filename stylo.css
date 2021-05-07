@@ -16,12 +16,10 @@
 
 
 /*Changing below this*/
-.row .row-2
+#invi
 {
-     display: flex;
-     flex-wrap: wrap-reverse;
+     display: none;
 }
-
 .desc
 {
      font-family: var(--secondary-font);
