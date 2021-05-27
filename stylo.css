@@ -92,7 +92,12 @@ nav{
     background-color:var(--main-color);
 }
 
-.navbar-brand{
+.go-name{
+     color:#000;
+     font-size:1.8rem;
+}
+
+ .navbar-brand{
      font-family:var(--secondary-font);
      font-size:4rem;
      margin-left:4rem;
@@ -317,6 +322,14 @@ nav{
      background-color:#1db0dd;
 }
 
+.Offer-kids{
+     width:100%;
+     height:80vh;
+     background:url("D:/shopex/images/kids19.jpg") center no-repeat;
+     background-size:65rem 52rem;
+     margin-top:4rem;
+     background-color:#1db0dd;
+}
 
 .Arrival{
      width:100%;
@@ -331,6 +344,15 @@ nav{
      width:100%;
      height:80vh;
      background:url(" images/women3.jpg") center no-repeat;
+     background:url("shopex/images/women3.jpg") center no-repeat;
+     background-size:125rem 50rem;
+     margin-top:4rem;
+}
+
+.Arrival-kids{
+     width:100%;
+     height:80vh;
+     background:url("shopex/images/kids1.jpg") center no-repeat;
      background-size:125rem 50rem;
      margin-top:4rem;
 }
@@ -472,6 +494,234 @@ footer{
 
 .inactive{
      display:none;
+}
+
+/*Payment Page*/
+
+.payment{
+     text-align:center;
+     background-color: var(--main-color);
+     height:100vh;
+}
+
+.deliver{
+    margin-top:-3rem;
+}
+
+.address{
+      border:.2rem solid #fff;
+      padding:2rem 2.5rem;
+      text-align:center;
+      display:inline-block;
+      margin-top:2rem;
+      background-color:#fff;
+}
+
+.address-name{
+     font-size:3rem;
+     font-family:var(--secondary-font);
+}
+
+.cash-name{
+    font-size:3rem;
+    margin-bottom:2rem;
+    font-family:var(--secondary-font);
+}
+
+.address-on input{
+     display:block;
+     width:36rem;
+     height:3.3rem;
+     margin-top:2rem;
+}
+
+.btn.btn-9{
+    margin-top:2rem;
+    color:#fff;
+    background-color:var(--main-color);
+    font-size:1.7rem;
+}
+
+.btn-8{
+    height:1.6rem;
+    width:1.6rem;
+    border-radius:50%;
+}
+
+.card-payment{
+     margin-left:-2rem;
+     margin-top:1.3rem;
+}
+
+.size{
+     font-size:2rem;
+     font-family:var(--main-font);
+}
+
+.card-on input.card-number{
+    display:block;
+    width:36rem;
+    height:3.3rem;
+    margin-top:2rem;
+    margin-left:7rem;
+}
+
+.card-on input.expiry{
+    display:inline;
+    width:10rem;
+    height:3.3rem;
+    margin-top:2rem;
+    margin-left:7rem;
+}
+
+.payment-on,.card-on{
+    display:none;
+}
+
+.act{
+    display:block;
+}
+
+.inact{
+    display:none;
+}
+
+.btn-8:focus{
+     background-color:#000;
+}
+
+.thanks{
+    margin-top:1.4rem;
+    color:#fff;
+    font-size:3rem;
+}
+
+.thanks-go{
+    display:none;
+}
+
+.acto{
+    display:block;
+}
+
+/*Product page*/
+
+.desc
+{
+    font-family: var(--secondary-font);
+    font-size: 4rem;
+}
+.prodFont
+{
+    font: var(--main-font);
+    font-size: 2.5rem;
+    color:#000;
+    letter-spacing:.2rem;
+    margin-right:-.2rem;
+}
+
+.round
+{
+    width: 5rem;       
+    height: 5rem;
+    border-radius: 50%;
+    color: #000;
+    background-color: #fff;
+    font-size: 1.5rem;
+    text-align: center;
+    font-family: var(--main-font);                 
+}
+
+.round:focus
+{
+    color: #fff;
+    background-color: #000;
+}
+
+.round:hover
+{
+    color: #fff;
+    background-color: #000;
+}
+
+
+
+/*Cart-page*/
+
+.cart-head{
+      font-size:3.5rem;
+      color:#000;
+      margin-bottom:2.3rem;
+      font-family:var(--main-font);
+      text-align:center;
+      letter-spacing:.2rem;
+      margin-right:-.2rem;
+}
+.cart-item{
+       font-size:2.4rem;
+       background-color:var(--main-color);
+       color:#fff;
+       font-family:var(--secondary-font);
+       padding:1rem 3rem;
+       padding-bottom:none;
+       height:11vh;
+       margin-bottom:1rem;
+}
+
+.cart-price{
+    font-size: 2.1rem;
+}
+
+
+.cart-b button{
+      font-size:1.7rem;
+      color:#000;
+      background-color:#fff;
+      padding:.5rem 1rem;
+}
+
+#r,#a,#b,#c,#d,#e,#f,#g,#h,#i,#j,#k,#l,#m,#n,#o,#p,#q,#s,#t,#u,#v,#w,#x,#y,#z,#a-1,#b-1,#c-1,#d-1,#e-1,#f-1,#g-1,#h-1,#i-1,#j-1,#k-1,#l-1,#m-1,#n-1,#o-1,#p-1,#q-1,#r-1,#s-1,#t-1,#u-1,#v-1,#w-1,#x-1,#y-1,#z-1,#a-2,#b-2{
+    display:none;
+}
+
+.quano{
+    font-size:2rem;
+    height:3.6rem;
+    width:3rem;
+    text-align:center;
+}
+
+.full-amount{
+    font-size:1.7rem;
+    color:#fff;
+    background-color:#000;
+}
+
+.full-amount:hover{
+    color:#fff;
+    background-color:var(--main-color);
+}
+.paydiv{
+      text-align:center;
+      margin-top:7rem; 
+}
+
+.payin{
+    text-align:center;
+    margin-top:5rem;
+    padding-top:3rem;
+}
+
+.stotal{
+      font-size:2.6rem;
+      margin-right:3rem;
+}
+
+.total-1{
+    width:30rem;
+    height:3.4rem;
+    font-size:2.5rem;
+    text-align:center;
 }
 
 
@@ -620,18 +870,27 @@ footer{
      height:70vh;
 }
 
+.Offer-kids{
+     background-size:25rem 40rem;
+     height:70vh;
+}
+
 .Arrival{
      background-size:40rem 40rem;
      height:70vh;
 }
 
-.Arrival-women{
+.Arrival-women,.Arrival-kids{
      background-size:40rem 37rem;
      height:70vh;
 }
 
 .Wear-on.women{
      color:#fff;
+}
+
+.Wear-on.kids{
+     color:var(--main-color);
 }
 
 .Wear-on{
@@ -681,6 +940,40 @@ footer{
 .btn.btn-6{  
      font-size:1.1rem;
 }
+
+.deliver{
+     margin-top:-4rem;
+}
+
+.address{
+     padding:1rem 2rem;
+     margin-top:1rem;
+}
+
+.address-name,.cash-name{
+     font-size:2rem;
+}
+
+.address-on input{
+      width:22rem;
+}
+
+.btn.btn-9{
+     font-size:1.3rem;
+}
+
+.btn-8{
+     font-size:1.3rem;
+}
+
+.size{
+     font-size:1.7rem;
+}
+
+.thanks{
+     font-size:1.8rem;
+}
+
 /*Changing below this*/
 .row-4
 {
@@ -689,4 +982,61 @@ footer{
      text-align: center;
 }
 
+.card-on input.card-number{
+     width:17rem;
+}
+
+.card-on input.expiry{
+     width:7rem;
+}
+
+
+.cart-head{
+     font-size:2.4rem;
+}
+.cart-item{
+      font-size:1.4rem;
+      padding:.5rem;
+      height:13.5vh;
+}
+
+.cart-price{
+   font-size: 1.4rem;
+}
+
+.quano{
+     height:2.5rem;
+     width:2rem;
+     font-size:1.3rem;
+}
+.cart-b button{
+     font-size:1.2rem;
+     padding:.2rem .4rem;
+}
+
+.row-5{
+     display:grid;
+     grid-template-columns:repeat(3,1fr);
+}
+
+.desc{
+     font-size:2rem;
+}
+
+.prodFont{
+     font-size:1.6rem;
+}
+
+.full-amount{
+     font-size:1.3rem;
+}
+
+.stotal{
+     font-size:1.7rem;
+}
+
+.total-1{
+      width:20rem;
+      height:2.7rem;
+}
 } 
