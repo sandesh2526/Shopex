@@ -1,0 +1,1031 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"/>
+    <link rel="stylesheet" href="D:\shopex\css\bootstrap.css"/>
+    <link rel="stylesheet" href="D:\shopex\css\mdb.css"/>
+    <link rel="stylesheet" href="D:\shopex\stylo.css"/>
+</head>
+<body>
+    <div class="cart-head">Your Cart Items</div>
+    <div id="r" class="cart-item">
+        <div class="row row-5">
+            <div class="col-md-4">
+       <div class="cart-title">Sky blue chex T-shirt</div>
+    </div>
+       <div class="col-md-4">
+       <div class="cart-price">Rs.600</div>
+    </div>
+       <div class="col-md-4">
+      <div class="cart-b">
+          <a href="#"><button onclick="addGo();" class="btn">+</button></a>
+          <a href="#"><input id="quan" class="quano" value="0"></a>  
+          <a href="#"><button onclick="negativeGo();" class="btn">-</button></a>
+        </div>
+    </div>
+</div>
+    </div>
+
+     <div id="a" class="cart-item">
+         <div class="row row-5">
+         <div class="col-md-4">
+        <div class="cart-title">Yellow & Black colour Shirt</div>
+         </div>
+         <div class="col-md-4">
+        <div class="cart-price">Rs.500</div>
+        </div>
+        <div class="col-md-4">
+       <div class="cart-b">
+           <a href="#"><button onclick="addGo1();" class="btn">+</button></a>
+           <a href="#"><input  id="quan-1" class="quano" value="0"></a>  
+           <a href="#"><button onclick="negativeGo1();" class="btn">-</button></a>
+         </div>
+        </div>
+        </div>
+     </div>
+      
+     <div id="b" class="cart-item">
+        <div class="row row-5">
+        <div class="col-md-4">
+        <div class="cart-title">Men Blue Three piece suit</div>
+        </div>
+        <div class="col-md-4">
+        <div class="cart-price">Rs.1500</div>
+        </div>
+        <div class="col-md-4">
+       <div class="cart-b">
+           <a href="#"><button onclick="addGo2();" class="btn">+</button></a>
+           <a href="#"><input id="quan-2" class="quano" value="0"></a>  
+           <a href="#"><button  onclick="negativeGo2();"  class="btn">-</button></a>
+         </div>
+        </div>
+        </div>
+     </div>
+
+     <div id="c" class="cart-item">
+        <div class="row row-5">
+        <div class="col-md-4">
+        <div class="cart-title">Traditional Men Blue Kurta</div>
+        </div>
+        <div class="col-md-4">
+        <div class="cart-price">Rs.1200</div>
+        </div>
+        <div class="col-md-4">
+       <div class="cart-b">
+           <a href="#"><button onclick="addGo3();" class="btn">+</button></a>
+           <a href="#"><input id="quan-3" class="quano" value="0"></a>   
+           <a href="#"><button onclick="negativeGo3();" class="btn">-</button></a>
+         </div>
+        </div>
+    </div>
+     </div>
+
+     <div id="d" class="cart-item">
+        <div class="row row-5">
+        <div class="col-md-4">
+        <div class="cart-title">Round Neck Green shirt</div>
+    </div>
+        <div class="col-md-4">
+        <div class="cart-price">Rs.500</div>
+    </div>
+        <div class="col-md-4">
+       <div class="cart-b">
+           <a href="#"><button onclick="addGo4();" class="btn">+</button></a>
+           <a href="#"><input id="quan-4" class="quano" value="0"></a>    
+           <a href="#"><button onclick="negativeGo4();" class="btn">-</button></a>
+         </div>
+        </div>
+    </div>
+     </div>
+
+     <div id="e" class="cart-item">
+        <div class="row row-5">
+            <div class="col-md-4">
+        <div class="cart-title">Men slim-fit blue jeans</div>
+    </div>
+        <div class="col-md-4">
+        <div class="cart-price">Rs.1000</div>
+    </div>
+        <div class="col-md-4">
+       <div class="cart-b">
+           <a href="#"><button onclick="addGo5();" class="btn">+</button></a>
+           <a href="#"><input id="quan-5" class="quano" value="0"></a>  
+           <a href="#"><button onclick="negativeGo5();" class="btn">-</button></a>
+         </div>
+        </div>
+    </div>
+     </div>
+
+     <div id="f" class="cart-item">
+        <div class="row row-5">
+            <div class="col-md-4">
+        <div class="cart-title">Designer purple silk saree</div>
+    </div>
+        <div class="col-md-4">
+        <div class="cart-price">Rs.1200</div>
+    </div>
+        <div class="col-md-4">
+       <div class="cart-b">
+           <a href="#"><button onclick="addGo6();" class="btn">+</button></a>
+           <a href="#"><input id="quan-6" class="quano" value="0"></a>  
+           <a href="#"><button onclick="neagtiveGo6();" class="btn">-</button></a>
+         </div>
+        </div>
+    </div>
+     </div>
+
+     <div id="g" class="cart-item">
+        <div class="row row-5">
+            <div class="col-md-4">
+        <div class="cart-title">Casual Peach colour Top</div>
+    </div>
+        <div class="col-md-4">
+        <div class="cart-price">Rs.600</div>
+    </div>
+        <div class="col-md-4">
+       <div class="cart-b">
+           <a href="#"><button onclick="addGo7();" class="btn">+</button></a>
+           <a href="#"><input id="quan-7" class="quano" value="0"></a>  
+           <a href="#"><button onclick="negativeGo7();" class="btn">-</button></a>
+         </div>
+        </div>
+    </div>
+     </div>
+
+     <div id="h" class="cart-item">
+        <div class="row row-5">
+            <div class="col-md-4">
+        <div class="cart-title">party wear Red colour one piece</div>
+    </div>
+        <div class="col-md-4">
+        <div class="cart-price">Rs.1500</div>
+    </div>
+        <div class="col-md-4">
+       <div class="cart-b">
+           <a href="#"><button onclick="addGo8();" class="btn">+</button></a>
+           <a href="#"><input id="quan-8" class="quano" value="0"></a>    
+           <a href="#"><button onclick="negativeGo8();" class="btn">-</button></a>
+         </div>
+        </div>
+    </div>
+     </div>
+
+     <div id="i" class="cart-item">
+        <div class="row row-5">
+            <div class="col-md-4">
+        <div class="cart-title">Blue colour slim-fit Jeans</div>
+    </div>
+        <div class="col-md-4">
+        <div class="cart-price">Rs.900</div>
+    </div>
+        <div class="col-md-4">
+       <div class="cart-b">
+           <a href="#"><button onclick="addGo9();" class="btn">+</button></a>
+           <a href="#"><input id="quan-9" class="quano" value="0"></a>  
+           <a href="#"><button onclick="neagtiveGo9();" class="btn">-</button></a>
+         </div>
+        </div>
+    </div>
+     </div>
+
+     <div id="j" class="cart-item">
+        <div class="row row-5">
+            <div class="col-md-4">
+        <div class="cart-title">White and Black 3/4 Top</div>
+    </div>
+        <div class="col-md-4">
+        <div class="cart-price">Rs.700</div>
+    </div>
+        <div class="col-md-4">
+       <div class="cart-b">
+           <a href="#"><button onclick="addGo10();" class="btn">+</button></a>
+           <a href="#"><input id="quan-10" class="quano" value="0"></a>   
+           <a href="#"><button onclick="negativeGo10();" class="btn">-</button></a>
+         </div>
+        </div>
+    </div>
+     </div>
+
+     <div id="k" class="cart-item">
+        <div class="row row-5">
+            <div class="col-md-4">
+        <div class="cart-title">Navy Blue colour kurti</div>
+    </div>
+        <div class="col-md-4">
+        <div class="cart-price">Rs.1300</div>
+    </div>
+        <div class="col-md-4">
+       <div class="cart-b">
+           <a href="#"><button onclick="addGo11();" class="btn">+</button></a>
+           <a href="#"><input id="quan-11"  class="quano" value="0"></a>   
+           <a href="#"><button onclick="negativeGo11();" class="btn">-</button></a>
+         </div>
+        </div>
+    </div>
+     </div>
+
+     <div id="l" class="cart-item">
+        <div class="row row-5">
+            <div class="col-md-4">
+        <div class="cart-title">Sky blue colour casual shirt</div>
+    </div>
+        <div class="col-md-4">
+        <div class="cart-price">Rs.700</div>
+    </div>
+        <div class="col-md-4"> 
+       <div class="cart-b">
+           <a href="#"><button onclick="addGo112();" class="btn">+</button></a>
+           <a href="#"><input id="quan-112" class="quano" value="0"></a>   
+           <a href="#"><button  onclick="negativeGo112();" class="btn">-</button></a>
+         </div>
+        </div>
+    </div>
+     </div>
+
+     <div id="m" class="cart-item">
+        <div class="row row-5">
+            <div class="col-md-4">
+        <div class="cart-title">Traditional Wear designer Gown</div>
+    </div>
+        <div class="col-md-4">
+        <div class="cart-price">Rs.1300</div>
+    </div>
+        <div class="col-md-4">
+       <div class="cart-b">
+           <a href="#"><button onclick="addGo12();" class="btn">+</button></a>
+           <a href="#"><input id="quan-12" class="quano" value="0"></a>  
+           <a href="#"><button onclick="neagtiveGo12();" class="btn">-</button></a>
+         </div>
+        </div>
+    </div>
+     </div>
+
+     <div id="n" class="cart-item">
+        <div class="row row-5">
+            <div class="col-md-4">
+        <div class="cart-title">white colour two piece</div>
+    </div>
+        <div class="col-md-4">
+        <div class="cart-price">Rs.1500</div>
+    </div>
+        <div class="col-md-4">
+       <div class="cart-b">
+           <a href="#"><button onclick="addGo13();" class="btn">+</button></a>
+           <a href="#"><input id="quan-13" class="quano" value="0"></a>   
+           <a href="#"><button onclick="negativeGo13();" class="btn">-</button></a>
+         </div>
+        </div>
+    </div>
+     </div>
+
+     <div id="o" class="cart-item">
+        <div class="row row-5">
+            <div class="col-md-4">
+        <div class="cart-title">Red and white long one piece</div>
+    </div>
+        <div class="col-md-4">
+        <div class="cart-price">Rs.1300</div>
+    </div>
+        <div class="col-md-4">
+       <div class="cart-b">
+           <a href="#"><button onclick="addGo14();" class="btn">+</button></a>
+           <a href="#"><input id="quan-14" class="quano" value="0"></a>   
+           <a href="#"><button onclick="negativeGo14();" class="btn">-</button></a>
+         </div>
+        </div>
+    </div>
+     </div>
+
+     <div id="p" class="cart-item">
+        <div class="row row-5">
+            <div class="col-md-4">
+        <div class="cart-title">Casual wear white Top</div>
+    </div>
+        <div class="col-md-4">
+        <div class="cart-price">Rs.1200</div>
+    </div>
+        <div class="col-md-4">
+       <div class="cart-b">
+           <a href="#"><button onclick="addGo15();" class="btn">+</button></a>
+           <a href="#"><input id="quan-15" class="quano" value="0"></a>   
+           <a href="#"><button onclick="negativeGo15();" class="btn">-</button></a>
+         </div>
+        </div>
+    </div>
+     </div>
+
+     <div id="q" class="cart-item">
+        <div class="row row-5">
+            <div class="col-md-4">
+        <div class="cart-title">Traditional wear modi kurta</div>
+    </div>
+        <div class="col-md-4">
+        <div class="cart-price">Rs.1600</div>
+    </div>
+        <div class="col-md-4">
+       <div class="cart-b">
+           <a href="#"><button onclick="addGo16();" class="btn">+</button></a>
+           <a href="#"><input id="quan-16" class="quano" value="0"></a>  
+           <a href="#"><button onclick="negativeGo16();" class="btn">-</button></a>
+         </div>
+        </div>
+    </div>
+     </div>
+ 
+    <div id="s" class="cart-item">
+        <div class="row row-5">
+            <div class="col-md-4">
+        <div class="cart-title">Pink Colour chex T-shirt</div>
+    </div>
+        <div class="col-md-4">
+        <div class="cart-price">Rs.900</div>
+    </div>
+        <div class="col-md-4">
+       <div class="cart-b">
+           <a href="#"><button onclick="addGo17();" class="btn">+</button></a>
+           <a href="#"><input id="quan-17" class="quano" value="0"></a>    
+           <a href="#"><button onclick="negativeGo17();" class="btn">-</button></a>
+         </div>
+        </div>
+    </div>
+     </div>
+     
+     
+     <div id="t" class="cart-item">
+        <div class="row row-5">
+            <div class="col-md-4">
+        <div class="cart-title">Men slim-fit faint jeans</div>
+    </div>
+        <div class="col-md-4">
+        <div class="cart-price">Rs.1100</div>
+    </div>
+        <div class="col-md-4">
+       <div class="cart-b">
+           <a href="#"><button onclick="addGo18();" class="btn">+</button></a>
+           <a href="#"><input id="quan-18" class="quano" value="0"></a>    
+           <a href="#"><button onclick="negativeGo18();" class="btn">-</button></a>
+         </div>
+        </div>
+    </div>
+     </div>
+     
+     
+     <div id="u" class="cart-item">
+        <div class="row row-5">
+            <div class="col-md-4">
+        <div class="cart-title">Designer Black Kurta & payjma</div>
+    </div>
+        <div class="col-md-4">
+        <div class="cart-price">Rs.1300</div>
+    </div>
+        <div class="col-md-4">
+       <div class="cart-b">
+           <a href="#"><button onclick="addGo19();" class="btn">+</button></a>
+           <a href="#"><input id="quan-19" class="quano" value="0"></a>  
+           <a href="#"><button onclick="negativeGo19();" class="btn">-</button></a>
+         </div>
+        </div>
+    </div>
+     </div>
+     
+
+     
+     <div id="v" class="cart-item">
+        <div class="row row-5">
+            <div class="col-md-4">
+        <div class="cart-title">Red Velvet Kurta & payjma</div>
+    </div>
+        <div class="col-md-4">
+        <div class="cart-price">Rs.1500</div>
+    </div>
+        <div class="col-md-4">
+       <div class="cart-b">
+           <a href="#"><button onclick="addGo20();" class="btn">+</button></a>
+           <a href="#"><input id="quan-20" class="quano" value="0"></a>  
+           <a href="#"><button  onclick="negativeGo20();" class="btn">-</button></a>
+         </div>
+        </div>
+    </div>
+     </div>
+     
+     
+     <div id="w" class="cart-item">
+        <div class="row row-5">
+            <div class="col-md-4">
+        <div class="cart-title">Designer Golden Kurta & payjma</div>
+    </div>
+        <div class="col-md-4">
+        <div class="cart-price">Rs.1700</div>
+    </div>
+        <div class="col-md-4">
+       <div class="cart-b">
+           <a href="#"><button onclick="addGo21();" class="btn">+</button></a>
+           <a href="#"><input id="quan-21" class="quano" value="0"></a>    
+           <a href="#"><button onclick="negativeGo21();" class="btn">-</button></a>
+         </div>
+        </div>
+    </div>
+     </div>
+     
+     
+     <div id="x" class="cart-item">
+        <div class="row row-5">
+            <div class="col-md-4">
+        <div class="cart-title">Red Modi Style Kurta & payjma</div>
+    </div>
+        <div class="col-md-4">
+        <div class="cart-price">Rs.2000</div>
+    </div>
+        <div class="col-md-4">
+       <div class="cart-b">
+           <a href="#"><button onclick="addGo22();" class="btn">+</button></a>
+           <a href="#"><input id="quan-22" class="quano" value="0"></a>   
+           <a href="#"><button  onclick="negativeGo22();"  class="btn">-</button></a>
+         </div>
+        </div>
+    </div>
+     </div>
+     
+     
+     <div id="y" class="cart-item">
+        <div class="row row-5">
+            <div class="col-md-4">
+        <div class="cart-title">Designer purple Kurta & payjma</div>
+    </div>
+        <div class="col-md-4">
+        <div class="cart-price">Rs.1600</div>
+    </div>
+        <div class="col-md-4">
+       <div class="cart-b">
+           <a href="#"><button onclick="addGo23();" class="btn">+</button></a>
+           <a href="#"><input id="quan-23" class="quano" value="0"></a>  
+           <a href="#"><button onclick="negativeGo23();"  class="btn">-</button></a>
+         </div>
+        </div>
+    </div>
+     </div>
+
+     
+     <div id="z" class="cart-item">
+        <div class="row row-5">
+            <div class="col-md-4">
+        <div class="cart-title">Black Colour Suit with bow</div>
+    </div>
+        <div class="col-md-4">
+        <div class="cart-price">Rs.2100</div>
+    </div>
+        <div class="col-md-4">
+       <div class="cart-b">
+           <a href="#"><button onclick="addGo24();" class="btn">+</button></a>
+           <a href="#"><input id="quan-24" class="quano" value="0"></a>   
+           <a href="#"><button onclick="negativeGo24();" class="btn">-</button></a>
+         </div>
+        </div>
+    </div>
+     </div>
+
+     
+     <div id="a-1" class="cart-item">
+        <div class="row row-5">
+            <div class="col-md-4">
+        <div class="cart-title">Peach Colour Suit with bow</div>
+    </div>
+        <div class="col-md-4">
+        <div class="cart-price">Rs.2000</div>
+    </div>
+        <div class="col-md-4">
+       <div class="cart-b">
+           <a href="#"><button onclick="addGo25();" class="btn">+</button></a>
+           <a href="#"><input id="quan-25" class="quano" value="0"></a>    
+           <a href="#"><button onclick="negativeGo25();" class="btn">-</button></a>
+         </div>
+        </div>
+    </div>
+     </div>
+
+     
+     <div id="b-1" class="cart-item">
+        <div class="row row-5">
+            <div class="col-md-4">
+        <div class="cart-title">Party Wear Stylish Blazer</div>
+    </div>
+        <div class="col-md-4">
+        <div class="cart-price">Rs.1500</div>
+    </div>
+        <div class="col-md-4">
+       <div class="cart-b">
+           <a href="#"><button onclick="addGo26();" class="btn">+</button></a>
+           <a href="#"><input id="quan-26" class="quano" value="0"></a>    
+           <a href="#"><button onclick="negativeGo26();" class="btn">-</button></a>
+         </div>
+        </div>
+    </div>
+     </div>
+
+     
+     <div id="c-1" class="cart-item">
+        <div class="row row-5">
+            <div class="col-md-4">
+        <div class="cart-title">Yellow Stylish Velvet Blazer</div>
+    </div>
+        <div class="col-md-4">
+        <div class="cart-price">Rs.1700</div>
+    </div>
+        <div class="col-md-4">
+       <div class="cart-b">
+           <a href="#"><button onclick="addGo27();" class="btn">+</button></a>
+           <a href="#"><input id="quan-27" class="quano" value="0"></a>  
+           <a href="#"><button onclick="negativeGo27();" class="btn">-</button></a>
+         </div>
+        </div>
+    </div>
+     </div>
+
+     
+     <div id="d-1" class="cart-item">
+        <div class="row row-5">
+            <div class="col-md-4">
+        <div class="cart-title">Designer Black Colour Suit</div>
+    </div>
+        <div class="col-md-4">
+        <div class="cart-price">Rs.2200</div>
+    </div>
+        <div class="col-md-4">
+       <div class="cart-b">
+           <a href="#"><button onclick="addGo28();" class="btn">+</button></a>
+           <a href="#"><input id="quan-28" class="quano" value="0"></a>  
+           <a href="#"><button onclick="negativeGo28();" class="btn">-</button></a>
+         </div>
+        </div>
+    </div>
+     </div>
+
+      
+     <div id="e-1" class="cart-item">
+        <div class="row row-5">
+            <div class="col-md-4">
+        <div class="cart-title">Black & White strips Top</div>
+    </div>
+        <div class="col-md-4">
+        <div class="cart-price">Rs.800</div>
+    </div>
+        <div class="col-md-4">
+       <div class="cart-b">
+           <a href="#"><button onclick="addGo29();" class="btn">+</button></a>
+           <a href="#"><input id="quan-29" class="quano" value="0"></a>  
+           <a href="#"><button onclick="negativeGo29();" class="btn">-</button></a>
+         </div>
+        </div>
+    </div>
+     </div>
+
+     <div id="f-1" class="cart-item">
+        <div class="row row-5">
+            <div class="col-md-4">
+        <div class="cart-title">3/4 Yellow colour Top</div>
+    </div>
+        <div class="col-md-4">
+        <div class="cart-price">Rs.600</div>
+    </div>
+        <div class="col-md-4">
+       <div class="cart-b">
+           <a href="#"><button onclick="addGo30();" class="btn">+</button></a>
+           <a href="#"><input id="quan-30" class="quano" value="0"></a>  
+           <a href="#"><button onclick="negativeGo30();" class="btn">-</button></a>
+         </div>
+        </div>
+    </div>
+     </div>
+
+     <div id="g-1" class="cart-item">
+        <div class="row row-5">
+            <div class="col-md-4">
+        <div class="cart-title">Blue Hem Bell bottom Jeans</div>
+    </div>
+        <div class="col-md-4">
+        <div class="cart-price">Rs.1000</div>
+    </div>
+        <div class="col-md-4">
+       <div class="cart-b">
+           <a href="#"><button onclick="addGo31();" class="btn">+</button></a>
+           <a href="#"><input id="quan-31" class="quano" value="0"></a>  
+           <a href="#"><button onclick="negativeGo31();" class="btn">-</button></a>
+         </div>
+        </div>
+    </div>
+     </div>
+
+     <div id="h-1" class="cart-item">
+        <div class="row row-5">
+            <div class="col-md-4">
+        <div class="cart-title">Navy Blue Lehenga Choli</div>
+    </div>
+        <div class="col-md-4">
+        <div class="cart-price">Rs.1200</div>
+    </div>
+        <div class="col-md-4">
+       <div class="cart-b">
+           <a href="#"><button onclick="addGo32();" class="btn">+</button></a>
+           <a href="#"><input id="quan-32" class="quano" value="0"></a>  
+           <a href="#"><button onclick="negativeGo32();" class="btn">-</button></a>
+         </div>
+        </div>
+    </div>
+     </div>
+
+     <div id="i-1" class="cart-item">
+        <div class="row row-5">
+            <div class="col-md-4">
+        <div class="cart-title">Peach Colour palazo style</div>
+    </div>
+        <div class="col-md-4">
+        <div class="cart-price">Rs.1400</div>
+    </div>
+        <div class="col-md-4">
+       <div class="cart-b">
+           <a href="#"><button onclick="addGo33();" class="btn">+</button></a>
+           <a href="#"><input id="quan-33" class="quano" value="0"></a>  
+           <a href="#"><button onclick="negativeGo33();" class="btn">-</button></a>
+         </div>
+        </div>
+    </div>
+     </div>
+
+     <div id="j-1" class="cart-item">
+        <div class="row row-5">
+            <div class="col-md-4">
+        <div class="cart-title">Designer Pink Colour Saree</div>
+    </div>
+        <div class="col-md-4">
+        <div class="cart-price">Rs.1400</div>
+    </div>
+        <div class="col-md-4">
+       <div class="cart-b">
+           <a href="#"><button onclick="addGo34();" class="btn">+</button></a>
+           <a href="#"><input id="quan-34" class="quano" value="0"></a>  
+           <a href="#"><button onclick="negativeGo34();" class="btn">-</button></a>
+         </div>
+        </div>
+    </div>
+     </div>
+
+     <div id="k-1" class="cart-item">
+        <div class="row row-5">
+            <div class="col-md-4">
+        <div class="cart-title">Pink Colour Lenhenga Choli</div>
+    </div>
+        <div class="col-md-4">
+        <div class="cart-price">Rs.1600</div>
+    </div>
+        <div class="col-md-4">
+       <div class="cart-b">
+           <a href="#"><button onclick="addGo35();" class="btn">+</button></a>
+           <a href="#"><input id="quan-35" class="quano" value="0"></a>  
+           <a href="#"><button onclick="negativeGo35();" class="btn">-</button></a>
+         </div>
+        </div>
+    </div>
+     </div>
+
+     <div id="l-1" class="cart-item">
+        <div class="row row-5">
+            <div class="col-md-4">
+        <div class="cart-title">Black Color One Piece</div>
+    </div>
+        <div class="col-md-4">
+        <div class="cart-price">Rs.2100</div>
+    </div>
+        <div class="col-md-4">
+       <div class="cart-b">
+           <a href="#"><button onclick="addGo36();" class="btn">+</button></a>
+           <a href="#"><input id="quan-36" class="quano" value="0"></a>  
+           <a href="#"><button onclick="negativeGo36();" class="btn">-</button></a>
+         </div>
+        </div>
+    </div>
+     </div>
+
+     <div id="m-1" class="cart-item">
+        <div class="row row-5">
+            <div class="col-md-4">
+        <div class="cart-title">Blue Colour One Piece</div>
+    </div>
+        <div class="col-md-4">
+        <div class="cart-price">Rs.2000</div>
+    </div>
+        <div class="col-md-4">
+       <div class="cart-b">
+           <a href="#"><button onclick="addGo37();" class="btn">+</button></a>
+           <a href="#"><input id="quan-37" class="quano" value="0"></a>  
+           <a href="#"><button onclick="negativeGo37();" class="btn">-</button></a>
+         </div>
+        </div>
+    </div>
+     </div>
+
+     <div id="n-1" class="cart-item">
+        <div class="row row-5">
+            <div class="col-md-4">
+        <div class="cart-title">Party Wear White Dress</div>
+    </div>
+        <div class="col-md-4">
+        <div class="cart-price">Rs.1200</div>
+    </div>
+        <div class="col-md-4">
+       <div class="cart-b">
+           <a href="#"><button onclick="addGo38();" class="btn">+</button></a>
+           <a href="#"><input id="quan-38" class="quano" value="0"></a>  
+           <a href="#"><button onclick="negativeGo38();" class="btn">-</button></a>
+         </div>
+        </div>
+    </div>
+     </div>
+
+      
+     <div id="o-1" class="cart-item">
+        <div class="row row-5">
+            <div class="col-md-4">
+        <div class="cart-title">Pink Colour One Piece</div>
+    </div>
+        <div class="col-md-4">
+        <div class="cart-price">Rs.1600</div>
+    </div>
+        <div class="col-md-4">
+       <div class="cart-b">
+           <a href="#"><button onclick="addGo39();" class="btn">+</button></a>
+           <a href="#"><input id="quan-39" class="quano" value="0"></a>  
+           <a href="#"><button onclick="negativeGo39();" class="btn">-</button></a>
+         </div>
+        </div>
+    </div>
+     </div>
+
+     <div id="p-1" class="cart-item">
+        <div class="row row-5">
+            <div class="col-md-4">
+        <div class="cart-title">Yellow Colour One Piece</div>
+    </div>
+        <div class="col-md-4">
+        <div class="cart-price">Rs.1800</div>
+    </div>
+        <div class="col-md-4">
+       <div class="cart-b">
+           <a href="#"><button onclick="addGo40();" class="btn">+</button></a>
+           <a href="#"><input id="quan-40" class="quano" value="0"></a>  
+           <a href="#"><button onclick="negativeGo40();" class="btn">-</button></a>
+         </div>
+        </div>
+    </div>
+     </div>
+
+     <div id="q-1" class="cart-item">
+        <div class="row row-5">
+            <div class="col-md-4">
+        <div class="cart-title">White Colour T-shirt</div>
+    </div>
+        <div class="col-md-4">
+        <div class="cart-price">Rs.800</div>
+    </div>
+        <div class="col-md-4">
+       <div class="cart-b">
+           <a href="#"><button onclick="addGo41();" class="btn">+</button></a>
+           <a href="#"><input id="quan-41" class="quano" value="0"></a>  
+           <a href="#"><button onclick="negativeGo41();" class="btn">-</button></a>
+         </div>
+        </div>
+    </div>
+     </div>
+
+     <div id="r-1" class="cart-item">
+        <div class="row row-5">
+            <div class="col-md-4">
+        <div class="cart-title">Pink Colour Top</div>
+    </div>
+        <div class="col-md-4">
+        <div class="cart-price">Rs.600</div>
+    </div>
+        <div class="col-md-4">
+       <div class="cart-b">
+           <a href="#"><button onclick="addGo42();" class="btn">+</button></a>
+           <a href="#"><input id="quan-42" class="quano" value="0"></a>  
+           <a href="#"><button onclick="negativeGo42();" class="btn">-</button></a>
+         </div>
+        </div>
+    </div>
+     </div>
+
+     <div id="s-1" class="cart-item">
+        <div class="row row-5">
+            <div class="col-md-4">
+        <div class="cart-title">Red Colour T-shirt</div>
+    </div>
+        <div class="col-md-4">
+        <div class="cart-price">Rs.1000</div>
+    </div>
+        <div class="col-md-4">
+       <div class="cart-b">
+           <a href="#"><button onclick="addGo43();" class="btn">+</button></a>
+           <a href="#"><input id="quan-43" class="quano" value="0"></a>  
+           <a href="#"><button onclick="negativeGo43();" class="btn">-</button></a>
+         </div>
+        </div>
+    </div>
+     </div>
+
+
+     <div id="t-1" class="cart-item">
+        <div class="row row-5">
+            <div class="col-md-4">
+        <div class="cart-title">Peach Colour Crop Top</div>
+    </div>
+        <div class="col-md-4">
+        <div class="cart-price">Rs.900</div>
+    </div>
+        <div class="col-md-4">
+       <div class="cart-b">
+           <a href="#"><button onclick="addGo44();" class="btn">+</button></a>
+           <a href="#"><input id="quan-44" class="quano" value="0"></a>  
+           <a href="#"><button onclick="negativeGo44();" class="btn">-</button></a>
+         </div>
+        </div>
+    </div>
+     </div>
+
+     <div id="u-1" class="cart-item">
+        <div class="row row-5">
+            <div class="col-md-4">
+        <div class="cart-title">Traditional Red Colour Kurta</div>
+    </div>
+        <div class="col-md-4">
+        <div class="cart-price">Rs.1400</div>
+    </div>
+        <div class="col-md-4">
+       <div class="cart-b">
+           <a href="#"><button onclick="addGo45();" class="btn">+</button></a>
+           <a href="#"><input id="quan-45" class="quano" value="0"></a>  
+           <a href="#"><button onclick="negativeGo45();" class="btn">-</button></a>
+         </div>
+        </div>
+    </div>
+     </div>
+
+
+     <div id="v-1" class="cart-item">
+        <div class="row row-5">
+            <div class="col-md-4">
+        <div class="cart-title">Blue Colour Lehenga Choli</div>
+    </div>
+        <div class="col-md-4">
+        <div class="cart-price">Rs.1500</div>
+    </div>
+        <div class="col-md-4">
+       <div class="cart-b">
+           <a href="#"><button onclick="addGo46();" class="btn">+</button></a>
+           <a href="#"><input id="quan-46" class="quano" value="0"></a>  
+           <a href="#"><button onclick="negativeGo46();" class="btn">-</button></a>
+         </div>
+        </div>
+    </div>
+     </div>
+
+     <div id="w-1" class="cart-item">
+        <div class="row row-5">
+            <div class="col-md-4">
+        <div class="cart-title">Designer Yellow Colour Kurta</div>
+    </div>
+        <div class="col-md-4">
+        <div class="cart-price">Rs.1300</div>
+    </div>
+        <div class="col-md-4">
+       <div class="cart-b">
+           <a href="#"><button onclick="addGo47();" class="btn">+</button></a>
+           <a href="#"><input id="quan-47" class="quano" value="0"></a>  
+           <a href="#"><button onclick="negativeGo47();" class="btn">-</button></a>
+         </div>
+        </div>
+    </div>
+     </div>
+
+     <div id="x-1" class="cart-item">
+        <div class="row row-5">
+            <div class="col-md-4">
+        <div class="cart-title">Pink Colour Lenhenga Choli</div>
+    </div>
+        <div class="col-md-4">
+        <div class="cart-price">Rs.1600</div>
+    </div>
+        <div class="col-md-4">
+       <div class="cart-b">
+           <a href="#"><button onclick="addGo48();" class="btn">+</button></a>
+           <a href="#"><input id="quan-48" class="quano" value="0"></a>  
+           <a href="#"><button onclick="negativeGo48();" class="btn">-</button></a>
+         </div>
+        </div>
+    </div>
+     </div>
+
+     <div id="y-1" class="cart-item">
+        <div class="row row-5">
+            <div class="col-md-4">
+        <div class="cart-title">Blue Colour One Piece</div>
+    </div>
+        <div class="col-md-4">
+        <div class="cart-price">Rs.1600</div>
+    </div>
+        <div class="col-md-4">
+       <div class="cart-b">
+           <a href="#"><button onclick="addGo49();" class="btn">+</button></a>
+           <a href="#"><input id="quan-49" class="quano" value="0"></a>  
+           <a href="#"><button onclick="negativeGo49();" class="btn">-</button></a>
+         </div>
+        </div>
+    </div>
+     </div>
+
+     <div id="z-1" class="cart-item">
+        <div class="row row-5">
+            <div class="col-md-4">
+        <div class="cart-title">Grey Colour Stylish Suit</div>
+    </div>
+        <div class="col-md-4">
+        <div class="cart-price">Rs.1700</div>
+    </div>
+        <div class="col-md-4">
+       <div class="cart-b">
+           <a href="#"><button onclick="addGo50();" class="btn">+</button></a>
+           <a href="#"><input id="quan-50" class="quano" value="0"></a>  
+           <a href="#"><button onclick="negativeGo50();" class="btn">-</button></a>
+         </div>
+        </div>
+    </div>
+     </div>
+
+     <div id="a-2" class="cart-item">
+        <div class="row row-5">
+            <div class="col-md-4">
+        <div class="cart-title">Party Wear Peach Dress</div>
+    </div>
+        <div class="col-md-4">
+        <div class="cart-price">Rs.1800</div>
+    </div>
+        <div class="col-md-4">
+       <div class="cart-b">
+           <a href="#"><button onclick="addGo51();" class="btn">+</button></a>
+           <a href="#"><input id="quan-51" class="quano" value="0"></a>  
+           <a href="#"><button onclick="negativeGo51();" class="btn">-</button></a>
+         </div>
+        </div>
+    </div>
+     </div>
+
+     <div id="b-2" class="cart-item">
+        <div class="row row-5">
+            <div class="col-md-4">
+        <div class="cart-title">Party Wear Stylish Suit</div>
+    </div>
+        <div class="col-md-4">
+        <div class="cart-price">Rs.2000</div>
+    </div>
+        <div class="col-md-4">
+       <div class="cart-b">
+           <a href="#"><button onclick="addGo52();" class="btn">+</button></a>
+           <a href="#"><input id="quan-52" class="quano" value="0"></a>  
+           <a href="#"><button onclick="negativeGo52();" class="btn">-</button></a>
+         </div>
+        </div>
+    </div>
+     </div>
+
+
+
+     <div class="paydiv">
+        <button onclick="mytotal();" class="btn full-amount">Show Payment Amount</button>
+       </div>
+       <div class="payin">
+       <span class="stotal">Total Amount(in Rs.):</span><input  id="total" class="total-1">
+   </div>
+   <div class="paydiv">
+       <a href="\shopex\payment.html"><button class="btn full-amount">Proceed To Place Order</button></a>
+   </div>
+
+     
+
+
+<script src="D:\shopex\js\jquery.min.js"></script>
+<script src="D:\shopex\js\popper.js"></script>
+<script src="D:\shopex\js\bootstrap.js"></script>
+<script src="D:\shopex\js\mdb.js"></script>
+<script src="D:\shopex\profile2.js"></script>
+<script src="D:\shopex\profile3.js"></script>
+<script>
+    $('.carousel').carousel({
+        interval:3000,
+        pause:'hover'
+    });
+</script>
+</body>
+</html>
