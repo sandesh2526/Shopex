@@ -1,2 +1,2 @@
 # Shopex
-A project to go with...
+A Web shopping application with the Functionalities like Cart,Checkout etc.
